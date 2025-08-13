@@ -4,7 +4,7 @@ import React from "react";
 export const NavBar = () => {
   return (
     <nav>
-      <ul className="flex justify-around">
+      <ul className="flex h-20 bg-[#333] items-center justify-around">
         <Link href={"/"}>
           <li>Home</li>
         </Link>
